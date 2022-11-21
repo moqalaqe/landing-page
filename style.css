@@ -180,6 +180,7 @@ label{
 
     label .menu-btn{
         position: absolute;
+        margin-right: px;
     }
 
     header .logo{
@@ -203,6 +204,19 @@ label{
 }
 
 @media (max-width: 560px) {
+    .content {
+        margin: 20px 40px;
+    }
+
+    label .menu-btn{
+        position: absolute;
+        right: 40px;
+    }
+
+    header {
+        padding: 30px 40px;
+        margin-bottom: 20px;
+    }
     .content .info h2{
         font-size: 35px;
         line-height: 40px;
@@ -216,4 +230,5 @@ label{
     .content .info p {
         font-size: 14px;
     }
+
 }
